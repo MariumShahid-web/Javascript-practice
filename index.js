@@ -69,3 +69,31 @@
 
 //instanceof always warks with reference data types like functions(), Arrays(), Objects()
 //typeof works with mostly with primitives datatypes like string, number, boolean, null, undefined, symbol, bigint
+
+// let points = 60;
+// let status = points > 100 ? "gold" : points > 50 ? "silver" : "bronze";
+// console.log(status)
+
+
+//post increment
+// let x=3;
+// let y=x++;                
+// console.log(x,y)
+
+// y = x++   → y gets 3
+//             then x becomes 4
+
+//pre increment
+// let x=3;
+// let y=++x;                
+// console.log(x,y)
+// y = ++x   → x becomes 4
+            // then y gets 4
+
+
+// let count = 5;
+// if(count++ === 5){
+//     console.log("matched")
+// }else{
+//     console.log("unmatched")
+// }
