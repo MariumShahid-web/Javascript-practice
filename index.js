@@ -66,3 +66,6 @@
 // false || false --> false
 
 //unary operators --> operators jo aik hi value ko operate krta ha that are + - ! ~ typeof ++ --
+
+//instanceof always warks with reference data types like functions(), Arrays(), Objects()
+//typeof works with mostly with primitives datatypes like string, number, boolean, null, undefined, symbol, bigint
